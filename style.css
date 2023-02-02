@@ -87,6 +87,28 @@ header nav .right p {
   text-align: center;
   
 }
+.wrapper{
+  margin: 0;
+  background-color:#D3D3D3;
+  
+}
+
+blockquote q {
+  color: black;
+  font-style: italic;
+  font-family: 'Poppins', sans-serif;
+  display: block;
+  position: relative;
+  width: 50%;
+  margin: 1rem auto;
+  padding: .5rem .2rem;
+  padding-top: 80px;
+  }
+cite{
+ display: flex;
+ justify-content: center;
+
+}
 
 .second .product-presentation .image-second {
   display: flex;
@@ -99,18 +121,6 @@ header nav .right p {
   margin: 0 15px 15px 0;
 }
 
-@media screen and (max-width: 1177px) {
-  .second .product-presentation h1{
-      display: none;
-  }
-  .second .product-presentation .image-second{
-      display: none;
-  }
-  header nav{
-      display: none;
-  }
-  
-}
 @media screen and (max-width: 640px) {
   .second .product-presentation h1{
       display: none;
