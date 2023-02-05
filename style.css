@@ -121,6 +121,61 @@ cite{
   margin: 0 15px 15px 0;
 }
 
+.bouton {
+  margin-top: -90px;
+  padding: 15px 60px;
+  font-size: 20px;
+  border-radius: 15px;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+  color: white;
+  border-color: white;
+  white-space: nowrap;
+  font-weight: bold;
+  position: relative;
+  right: 20%;
+}
+
+.third .product-presentation {
+  background-color: #2562c5;
+  padding: 40px;
+  justify-content: center;
+  align-items: center;
+  margin-top: -80px;
+  position: relative;
+  left: 5%;
+}
+
+.third .product-presentation h1{
+  color: white;
+  font-size: 25px;
+  position: relative;
+  left: 15%;
+  font-weight: bold;
+  }
+  .third .product-presentation p{
+    color: white;
+    font-size: 25px;
+    position: relative;
+    left: 15%;
+    font-size: bold;
+    }
+
+footer{
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    padding: 20px;
+}
+footer p {
+  color: white;
+  text-align: center;
+  font-weight: bold;
+}
+
 @media screen and (max-width: 640px) {
   .second .product-presentation h1{
       display: none;
